@@ -1,4 +1,5 @@
 import "./App.css";
+import Exemplo1 from "./paginas/Exemplo1";
 
 export default function App()
 {
@@ -8,6 +9,9 @@ export default function App()
 
       <div className="card">
         <h3>Chamada para o Exemplo 1</h3>
+        <Exemplo1 numero={33} />
+        <Exemplo1 numero={43} />
+        <Exemplo1 numero={2} />
 
       </div>
 
